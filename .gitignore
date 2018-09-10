@@ -1,0 +1,12 @@
+.hgignore
+.hg/
+*.aux
+*.blg
+*.log
+*.out
+*.pdf
+*.synctex.gz
+*.png
+*.eps
+*.jpg
+*.bbl
