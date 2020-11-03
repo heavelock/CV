@@ -4,7 +4,7 @@
 % conditions of the LaTeX Project Public License version 1.3c,
 % available at http://www.latex-project.org/lppl/.
 
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[10pt,a4paper,sans]{moderncv}
 
 \usepackage{fontspec}
 \usepackage{fontawesome}
@@ -21,7 +21,7 @@
 \moderncvcolor{blue}                               
 
 \usepackage[scale=0.85]{geometry}
-\setlength{\hintscolumnwidth}{3.7cm}                % if you want to change the width of the column with the dates
+\setlength{\hintscolumnwidth}{3.5cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
@@ -36,7 +36,7 @@
 \social[researchgate][researchgate.net/profile/Damian_Kula]{Damian Kula}
 \social[skype][]{DamianKula@outlook.com}
 
-%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\photo[64pt][0.4pt]{dk_mini}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 
 \begin{document}
 
@@ -45,22 +45,23 @@
 % \vspace{-0.9cm}
 \vspace{-1.5cm}
 
-
+% TODO rephrase to 1st person
 \section{Profile}
-	A highly young professional who is using his programming skills to deal with data, mostly seismological.
-	Seeking for an position in data science industry to be able face new challenges all the time.
-	With more than five years of experience in solving scientific problems with programming and half of a year on a junior backend developer position he proved to be able to quickly adapt and learn new technologies.
-	Currently finished working on project focused on Ambient Seismic Noise monitoring of gas and geothermal reservoir where he was trying to bring the best technological approach to the world of science. 
-	He tackled a lot of data engineering and data science tasks such as data aggregation, processing and visualization using production grade technological stack including Python, Flask, Apache Airflow, Docker, Docker Compose and PostgreSQL.
+	I am highly motivated young professional who is using his programming skills to deal with data, mostly seismological.
+	I~am seeking for an position in data science industry in order to be able face new challenges all the time.
+	With more then five years of experience in solving scientific problems using my programming skills, as well as half of a year as a junior backend developer I learned how to apply good programming practice in a world of scientific programming.
+	Currently I am working on two projects, first of which is focused on Ambient Seismic Noise monitoring of gas and geothermal reservoir.
+	During this project I installed and managed seismic network as well as developed a data fetching and processing pipeline for Ambient Noise Monitoring application and interpreted results of velocity variation analysis.
+	Focus of the second one is put on applying state-of-the-art earthquake detection and relocation methods in Mayotte region and wrapping them with modern data engineering technological stack.
+	In my professional career I have tackled multiple data engineering and data science tasks such as aggregation, processing and visualization using production grade technological stack including Python, Flask, Apache Airflow, Docker, Docker Compose and PostgreSQL.
 
-\vspace{-0.20cm}
-
-\section{Experience}
-	\cventry{Oct 2017 -- Jan 2020}{PhD Student in Seismology}{Institut de Physique du Globe de Strasbourg}{}{}{}
+	\vspace{-0.20cm}
+\section{Work Experience}
+	\cventry{Oct 2017 -- Dec 2020}{Research engineer}{Institut de Physique du Globe de Strasbourg}{}{}{}
 	\vspace{-0.05cm}
-	\cvitem{Responsibilities}{Leading a scientific project concerning monitoring of deep reservoirs with ambient seismic noise in collaboration with industrial partners from Storengy SAS and ES Géothermie. Project supervised by Jérôme Vergne (IPGS), Jean Schmittbuhl (IPGS), Alexandre Kazanstsev (Storengy) and Vincent Maurer (ESG). Installation and maintenance of broadband seismic network. Creating a pipeline for continous fetching, processing and analysis  of Ambient Seismic Noise}
+	\cvitem{Responsibilities}{Leading a scientific project concerning monitoring of deep reservoirs with ambient seismic noise in collaboration with industrial partners from Storengy SAS and ES Géothermie. Project supervised by Jérôme Vergne (IPGS), Jean Schmittbuhl (IPGS), Alexandre Kazanstsev (Storengy) and Vincent Maurer (ESG). Installation and maintenance of broadband seismic network consisting of Nanometrics equipment together with GSM connection. Creating a pipeline for continous fetching, processing and analysis of Ambient Seismic Noise}
 	\vspace{-0.1cm}
-	\cvitem{Technological stack}{Python, Apache Airflow, Flask, PostgreSQL, Docker, Jupyter}
+	\cvitem{Technological stack}{Python, Apache Airflow, Flask, Pytest, PostgreSQL, Docker, Jupyter}
 
 	\cventry{Apr 2017 -- Sep 2017}{Junior Java Developer}{ACC Cyfronet AGH}{}{}{}
 	\vspace{-0.05cm}
@@ -78,26 +79,25 @@
 	
 	\cventry{Jan 2015 -- Oct 2017}{Member of a scientific project}{University of Silesia in Katowice}{}{}{Project leader: dr hab. Wojciech Dobiński, University of Silesia, Department of Earth Science.}
 	\vspace{-0.05cm}
-	\cvitem{}{Participant of the Scientific Expedition to the Spitsbergen in Aug - Sep 2015}
+	\cvitem{\small Aug 2015- Sep 2015}{\small Participant of the Scientific Expedition to the Spitsbergen}
 	\vspace{-0.1cm}
 	\cvitem{Responsibilities}{Preparing and conducting Electrical Resistivity Tomography surveys; Data processing and interpretation}
 	
-\vspace{-0.35cm}
-
+% \vspace{-0.35cm}
 \section{Programming}
 	\cvitemwithcomment{Python}{4 years of experience}{Obspy, Scipy, Numpy, Matplotlib, Pandas, Flask, SQLalchemy}
 	\cvitemwithcomment{Java}{1 year of experience}{Spring, Springboot, GWT}
 	\cvitem{SQL}{2 years of experience}
-	\cvitem{Minor experience}{R, Matlab}
+	\cvitem{Minor experience}{Fortran, R, Matlab}
 	\cvitem{Utilities}{Docker, Docker Compose, Apache Airflow, Git, Latex, Bash}
 	\cvitem{Continous Intergration}{GitlabCI Pipelines, TravisCI, CircleCI}
 	\cvitem{Databases}{SQLite, PostgreSQL, MongoDB}
-% \newpage
 
 
+\newpage
 \section{Languages}
 	\cvitemwithcomment{Polish}{Native}{}
-	\cvitemwithcomment{English}{C1}{Full professional fluency}
+	\cvitemwithcomment{English}{C1 - Full professional fluency}{}
 	% {Certificates: English in Geophysics -- Level C1}
 	\cvitemwithcomment{French}{Elementary}{}
 	\cvitemwithcomment{Russian}{Elementary}{}
@@ -106,7 +106,7 @@
 \section{Education}
 	\cventry{Oct 2015 -- Jul 2017}{Master of Science in Geophysics}{University of Silesia in Katowice}{}{}{}
 	\vspace{-0.05cm}
-	\cvitem{Thesis title}{Seismic noise analysis for purpose of Active Layer of Permafrost investigations in a region of Polish Polar Station in Hornsund, Svalbard}
+	\cvitem{Thesis title}{Seismic noise analysis for the purpose of Active Layer of Permafrost investigation in a region of Polish Polar Station in Hornsund, Svalbard}
 	\vspace{-0.05cm}
 	\cvitem{Supervisor}{Dorota Olszewska, PhD. Institute of Geophysics, Polish Academy of Sciences}
 	\vspace{-0.05cm}
@@ -120,19 +120,18 @@
 	\vspace{-0.05cm}
 	\cvitem{Keywords}{Matlab, Monte Carlo Sampling, D-optimum solution.}  % arguments 3 to 6 can be left empty
 
-
-\section{Voluntary Services}
+% TODO rename
+\section{Extracurricular activities}
 	\cventry{Oct 2015 -- Aug 2016}{Organizing Committee Member}{}{}{}{7\textsuperscript{th} International Geosciences Student Conference in Katowice, 11\textsuperscript{th} -14\textsuperscript{th} July 2016}
-	\vspace{-0.1cm}
+	\vspace{-0.05cm}
 	\cvitem{Responsibilities}{Organization of worldwide sceintific conference for 150 students and young professionals as a core member of organizing committee}
 
-	\cventry{Jan 2016}{Volunteer}{Biebrza National Park, Poland.}{}{}{}
-	\vspace{-0.1cm}
+	\cventry{Jan 2016}{Volunteer}{Biebrza National Park, Poland}{}{}{}
+	\vspace{-0.05cm}
 	\cvitem{Responsibilities}{Data preparation, processing and preparing for publishing in form of maps using ArcGis software.}
 	
-	
 	\cventry{Oct 2014 -- May 2015}{Organizing Committee Leader}{}{}{}{VIII Student Scientific Workshops Geosfera 2015 in Żory, 23-26\textsuperscript{th} April 2015}
-	\vspace{-0.1cm}
+	\vspace{-0.05cm}
 	\cvitem{Responsibilities}{Organization of scientific conference for 130 students as leader of organizing committee}
 	
 
@@ -154,17 +153,17 @@
 % 	\cvitemwithcomment{Jan 2015 -- Jul 2017}{University of Silesia Student Chapter of the SEG}{Positions: President, Vicepresident}
 
 \section{Personal interests}
-	\cvlistitem{Hiking, running, swimming, mountain biking, polar regions}
+	\cvlistitem{Mountain biking, hiking, running, swimming, polar regions}
 	\cvlistitem{Technology, IT, programming}
-	\cvlistitem{Seismology, geophysics, statistics, data science}
 
 %\footnotetext{I hereby give consent for my personal data to be processed for the purposes of recruitment, in accordance with the Personal Data Protection Act dated 29.08.1997 (uniform text: Journal of Laws of the Republic of Poland 2002 No 101, item 926 with further amendments)}
-% \newpage
-% \section{Published materials}
 
-% \subsection{Publications}
-% 	\cvitem{2018}{--- Kula, D., Olszewska, D., Dobiński, W., Glazer, M.; Horizontal-to-vertical spectral ratio variability in the presence of permafrost, \textit{Geophysical Journal International}, Volume 214, Issue 1, 1 July 2018, Pages 219–231,\href{https://doi.org/10.1093/gji/ggy118}{DOI 10.1093/gji/ggy118}}
-% 	\cvitem{2014}{--- Glazer, M., Kula, D., Saternus, R., Lewicki, P.; Geophysical Exploration of Castle Remains in Barwałd Górny (Near Kalwaria Zebrzydowska, Poland) Using Electrical Resistivity Tomography (ERT) with Assistance of Depth of Investigation Index (DOI) Method; \textit{Contemporary Trends in Geoscience}, 3(1), 24-31., \href{http://dx.doi.org/10.2478/ctg-2014-0019}{DOI 10.2478/ctg-2014-0019}}
+\newpage
+\section{Published materials}
+
+\subsection{Publications}
+	\cvitem{2018}{--- Kula, D., Olszewska, D., Dobiński, W., Glazer, M.; Horizontal-to-vertical spectral ratio variability in the presence of permafrost, \textit{Geophysical Journal International}, Volume 214, Issue 1, 1 July 2018, Pages 219–231,\href{https://doi.org/10.1093/gji/ggy118}{DOI 10.1093/gji/ggy118}}
+	\cvitem{2014}{--- Glazer, M., Kula, D., Saternus, R., Lewicki, P.; Geophysical Exploration of Castle Remains in Barwałd Górny (Near Kalwaria Zebrzydowska, Poland) Using Electrical Resistivity Tomography (ERT) with Assistance of Depth of Investigation Index (DOI) Method; \textit{Contemporary Trends in Geoscience}, 3(1), 24-31., \href{http://dx.doi.org/10.2478/ctg-2014-0019}{DOI 10.2478/ctg-2014-0019}}
 
 % \subsection{Presentations}
 % 	\cvitem{2016}{--- Kula D. Comparison of methodology of calculating HVSR for seismic noise and seismic event (in Polish); Presentation during IX Nationwide Geophysical Workshops Geosphere 2016}
@@ -172,18 +171,18 @@
 % 	\cvitem{}{--- Kula D.  Optimisation of seismic network using simulated annealing algorithm (in Polish); Presentation during VIII Nationwide Geophysical Workshops Geosphere 2015}
 % 	\cvitem{2014}{--- Kula D., Saternus R., Lewicki P., Geophysical explorations of castle remains in Barwałd Górny using ERT method with assistance of 2,5D and DOI Index (in Polish); Presentation during VII Nationwide Geophysical Workshops Geosphere 2014}
 
-% \subsection{Posters}
-% 	\cvitem{2018}{--- Kula D., Lehujeur M., Vergne J., Schmittbuhl J., Zigone D.; Steps toward monitoring a deep geothermal reservoir in northern Alsace with ambient seismic noise interferometry; 80\textsuperscript{th} EAGE Conference \& Exhibition 2018; Copenhagen 2018;}
-% 	\cvitem{}{--- Kula D., Vergne J., Schmittbuhl J., Zigone D.; Monitoring a deep geothermal reservoir in northern Alsace with ambient seismic noise interferometry; 9\textsuperscript{th} European Geothermal PhD Days; Zurich 2018;}
-% 	\cvitem{}{--- Kula D., Vergne J., Schmittbuhl J., Zigone D.; Towards monitoring deep geothermal reservoirs in Alsace with ambient seismic noise; 6\textsuperscript{th} European Geothermal Workshop; Strasbourg 2018;}
-% 	\cvitem{2017}{--- Kula D., Olszewska D.;  Seasonal variability of Horizontal to Vertical Spectral Ratio in polar regions;  European Geosciences Union General Assembly 2017; Vienna 2017;}
-% 	\cvitem{2016}{--- Kula D., Olszewska D., Dobiński W., Glazer M.; Comparative analysis of ERT and seismic noise changes in time for purpose of active layer investigations; 35\textsuperscript{th} General Assembly of European Seismological Commision, Trieste 2016; \textbf{Awarded with Best Student Poster Award}}
-% 	\cvitem{}{--- Olszewska D., Kula D.; Preliminary site-effects characterization by inversion of HVSR data in mining area; 35\textsuperscript{th} General Assembly of European Seismological Commision, Trieste 2016}
-% 	\cvitem{}{--- Kula D., Olszewska D., Dobiński W. Glazer M.; Using HVSR Method for Estimating Thickness of Acive Layer of Permafrost; 7\textsuperscript{th} International Geosciences Student Conference, Katowice 2016}
-% 	\cvitem{}{--- Kula D., Olszewska D., Dobiński W. Glazer M.; Comparative analysis of ERT and seismic noise changes in time for purpose of active layer investigations; 36\textsuperscript{th} Polar Symposium, Lublin 2016}
-% 	\cvitem{2015}{--- Kula D., Glazer M., Bieta B.; ERT Surveys over anthropogenic void of known dimensions, 6\textsuperscript{th} International Geosciences Student Conference, Prague 2015}
-% 	\cvitem{}{--- Bieta B., Kula D.; Results of electrical resistivity tomography surveys over anthropogenic void (in Polish), VIII Nationwide Geophysical Workshops Geosphere 2015, Żory 2015}
-% 	\cvitem{2014}{--- Glazer M., Kula D., Saternus R.; Geophysical explorations of castle remains in Barwałd Górny, VII~GeoSymposium of Young Researchers Silesia 2014, Ustroń 2014}
-% 	\cvitem{}{--- Kula D.,Glazer M., Saternus R.; ERT survets over ruins of Castle in Barwałd Górny (in Polish), I Ogólnopolski Zjazd Kół Geologicznych, Przesieka 2014.}
+\subsection{Posters}
+	\cvitem{2018}{--- Kula D., Lehujeur M., Vergne J., Schmittbuhl J., Zigone D.; Steps toward monitoring a deep geothermal reservoir in northern Alsace with ambient seismic noise interferometry; 80\textsuperscript{th} EAGE Conference \& Exhibition 2018; Copenhagen 2018;}
+	\cvitem{}{--- Kula D., Vergne J., Schmittbuhl J., Zigone D.; Monitoring a deep geothermal reservoir in northern Alsace with ambient seismic noise interferometry; 9\textsuperscript{th} European Geothermal PhD Days; Zurich 2018;}
+	\cvitem{}{--- Kula D., Vergne J., Schmittbuhl J., Zigone D.; Towards monitoring deep geothermal reservoirs in Alsace with ambient seismic noise; 6\textsuperscript{th} European Geothermal Workshop; Strasbourg 2018;}
+	\cvitem{2017}{--- Kula D., Olszewska D.;  Seasonal variability of Horizontal to Vertical Spectral Ratio in polar regions;  European Geosciences Union General Assembly 2017; Vienna 2017;}
+	\cvitem{2016}{--- Kula D., Olszewska D., Dobiński W., Glazer M.; Comparative analysis of ERT and seismic noise changes in time for purpose of active layer investigations; 35\textsuperscript{th} General Assembly of European Seismological Commision, Trieste 2016; \textbf{Awarded with Best Student Poster Award}}
+	\cvitem{}{--- Olszewska D., Kula D.; Preliminary site-effects characterization by inversion of HVSR data in mining area; 35\textsuperscript{th} General Assembly of European Seismological Commision, Trieste 2016}
+	\cvitem{}{--- Kula D., Olszewska D., Dobiński W. Glazer M.; Using HVSR Method for Estimating Thickness of Acive Layer of Permafrost; 7\textsuperscript{th} International Geosciences Student Conference, Katowice 2016}
+	\cvitem{}{--- Kula D., Olszewska D., Dobiński W. Glazer M.; Comparative analysis of ERT and seismic noise changes in time for purpose of active layer investigations; 36\textsuperscript{th} Polar Symposium, Lublin 2016}
+	\cvitem{2015}{--- Kula D., Glazer M., Bieta B.; ERT Surveys over anthropogenic void of known dimensions, 6\textsuperscript{th} International Geosciences Student Conference, Prague 2015}
+	% \cvitem{}{--- Bieta B., Kula D.; Results of electrical resistivity tomography surveys over anthropogenic void (in Polish), VIII Nationwide Geophysical Workshops Geosphere 2015, Żory 2015}
+	\cvitem{2014}{--- Glazer M., Kula D., Saternus R.; Geophysical explorations of castle remains in Barwałd Górny, VII~GeoSymposium of Young Researchers Silesia 2014, Ustroń 2014}
+	% \cvitem{}{--- Kula D.,Glazer M., Saternus R.; ERT survets over ruins of Castle in Barwałd Górny (in Polish), I Ogólnopolski Zjazd Kół Geologicznych, Przesieka 2014.}
 % \clearpage
 \end{document}
